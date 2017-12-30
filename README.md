@@ -12,7 +12,7 @@ This project analyzed accelerometer and gyroscope data from Samsung phones provi
 * Features_info.txt
 
 ## Run_Analysis.R Script discussion
-The Run_Analysis.R Script loads the Samsung data and processes it to provide the tidy data sets. 
+The Run_Analysis.R Script loads the Samsung data and processes it to provide the tidy data sets. A complete descripton of the process taken in the code is included as comments in the .R file
 
 ## Codebook 
 Variables provided in the SamsungTidyData.txt field include:
