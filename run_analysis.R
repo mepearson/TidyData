@@ -93,4 +93,7 @@ sumClean  <- cleanData %>%
       group_by (Subject,Activity,Activity.Description)%>%
       summarise_all(funs(mean))
 
+#Write Clean data set to file
+write.table(sumClean,"SamsungTidyData.txt",row.name=FALSE)
+
 
